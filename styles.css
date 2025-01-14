@@ -4,13 +4,92 @@ img {
 
 
 body{
-    font:Roboto;
-    display: flex;
-    flex-direction: column;
+    font: Roboto, sans-serif;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 200px;
+    margin:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 8px 300px;
+    max-width: 2000px;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.container.hero{
+    background-color:#1f2937;
+    gap: 72px;
+    padding-bottom: 128px;
+}
+
+.hero-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:900;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.text-container{
+    display: flex;
+    flex-direction:column;
+    max-width: 600px;
+    gap: 6px;
+}
+
+.container.image{
+    
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container.quote{
+    background-color: #E5E7EB;
+    padding: 200px 550px;
+    gap: 42px;
+}
+
+.quote-text, .quote-name{
+    max-width: 900px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding:0;
+    margin:0;
+}
+.quote-name{
+    align-self: last baseline;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+
+
 ul {
     display: flex;
     list-style: none;
@@ -18,34 +97,45 @@ ul {
     padding: 0;
     gap: 16px
   }
-a{
+
+a {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #E5E7EB;  /* Default color */
+    transition: color 0.3s ease, transform 0.1s ease; /* Smooth transition for color and shrink effect */
 }
 
-button{
+a:hover {
+    color: #A7B0C0;  /* Slightly darker color on hover */
+}
+
+a:active {
+    transform: scale(0.98);  /* Shrink the link slightly when clicked */
+}
+
+
+
+
+.signup button{
+    font-size: 18px;
+    font-weight: 900;
     color: #E5E7EB;
     background-color: #3882F6;
-    border-radius:0;
-    width:100px;
-    align-self: center;
+    border: none;
+    border-radius: 10px;
+    width:130px;
+    height:40px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.container{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding:0;
-    margin:0;
-}
-.container-content{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 64px;
-    padding: 32px;
+.signup button:hover {
+    background-color: #1F5BB7; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+.signup button:active {
+    background-color: #3069C9;
+    transform: scale(0.98); 
+}
