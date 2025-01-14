@@ -1,15 +1,17 @@
-img {
-    width: 150px;
-}
-
+ .info-img img{
+    width: 200px;
+    height: 200px;
+ }
 
 body{
-    font: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .content{
@@ -24,11 +26,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 8px 300px;
+    padding: 20px 300px;
     max-width: 2000px;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
+
+
+
+
 
 .container.hero{
     background-color:#1f2937;
@@ -36,16 +42,13 @@ body{
     padding-bottom: 128px;
 }
 
-.hero-main{
+.hero-header{
     font-size: 48px;
     color: #F9FAF8;
-    font-weight:900;
+    font-weight:bolder;
 }
 
-.hero-secondary{
-    font-size: 18px;
-    color: #E5E7EB;
-}
+
 .text-container{
     display: flex;
     flex-direction:column;
@@ -53,24 +56,48 @@ body{
     gap: 6px;
 }
 
-.container.image{
-    
+
+
+
+.container.information{
+    padding-top: 70px;
+    padding-bottom: 140px;
+    gap: 56px;
+    align-items: center;
+}
+.content.image{
+    gap: 72px;
 }
 
+.information-header{
+    font-size: 48px;
+    color: #1F2937;
+    font-weight:900;
+}
+.information-subtext{
+    max-width:200px;
+    color:grey;
+    text-align: center;
+}
 .image-container{
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    align-items: center;
+
 }
+
+
 
 
 .container.quote{
     background-color: #E5E7EB;
-    padding: 200px 550px;
+    padding: 150px 550px;
     gap: 42px;
 }
 
 .quote-text, .quote-name{
-    max-width: 900px;
+    max-width: 1000px;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -80,11 +107,43 @@ body{
 }
 .quote-name{
     align-self: last baseline;
+    font-size: 18px;
     font-weight: 900;
     font-style: normal;
 }
 
 
+
+
+.container.action{
+    justify-content:center;
+    align-items:center;
+    margin:100px 300px;
+    background-color:#3882F6;
+    padding: 60px 120px;
+    border-radius:20px;
+}
+
+.action-header{
+    padding-left: 8px;
+    font-size: 32px;
+    font-weight:900;
+}
+
+
+
+
+
+.container.footer{
+    background-color:#1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 1000px;
+}
+.footer-text{
+    font-size: 18px;
+    text-wrap: nowrap;
+}
 
 
 
@@ -100,7 +159,7 @@ ul {
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     color: #E5E7EB;  /* Default color */
     transition: color 0.3s ease, transform 0.1s ease; /* Smooth transition for color and shrink effect */
 }
@@ -117,7 +176,7 @@ a:active {
 
 
 .signup button{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 900;
     color: #E5E7EB;
     background-color: #3882F6;
