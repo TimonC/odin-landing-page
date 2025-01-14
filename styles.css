@@ -13,7 +13,7 @@ body{
     align-items: center;
     color: #E5E7EB;
     font-size: 1rem;
-    zoom: 0.5;
+    zoom: 0.6;
 }
 
 .content{
@@ -54,7 +54,7 @@ body{
 .text-container{
     display: flex;
     flex-direction:column;
-    max-width: 36rem;
+    max-width: 40rem;
     gap: 6px;
 }
 
