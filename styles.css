@@ -1,6 +1,6 @@
  .info-img img{
-    width: 200px;
-    height: 200px;
+    width: 12rem;
+    height: 12rem;
  }
 
 body{
@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     align-items: center;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 1rem;
     width: 100%;
 }
 
@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    gap: 200px;
+    gap: 12rem;
     margin:0;
 }
 
@@ -27,8 +27,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 20px 300px;
-    max-width: 2000px;
+    padding: 1rem 18rem;
+    max-width: 125rem;
     margin: 0;
     box-sizing: border-box;
 }
@@ -39,12 +39,12 @@ body{
 
 .container.hero{
     background-color:#1f2937;
-    gap: 72px;
-    padding-bottom: 128px;
+    gap: 5rem;
+    padding-bottom: 8rem;
 }
 
 .hero-header{
-    font-size: 48px;
+    font-size: 3rem;
     color: #F9FAF8;
     font-weight:bolder;
 }
@@ -53,7 +53,7 @@ body{
 .text-container{
     display: flex;
     flex-direction:column;
-    max-width: 600px;
+    max-width: 36rem;
     gap: 6px;
 }
 
@@ -61,29 +61,29 @@ body{
 
 
 .container.information{
-    padding-top: 70px;
-    padding-bottom: 140px;
-    gap: 56px;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    gap: 3rem;
     align-items: center;
 }
 .content.image{
-    gap: 72px;
+    gap: 9rem;
 }
 
 .information-header{
-    font-size: 48px;
+    font-size: 3rem;
     color: #1F2937;
     font-weight:900;
 }
 .information-subtext{
-    max-width:200px;
+    max-width:12rem;
     color:grey;
     text-align: center;
 }
 .image-container{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 1rem;
     align-items: center;
 
 }
@@ -93,13 +93,13 @@ body{
 
 .container.quote{
     background-color: #E5E7EB;
-    padding: 150px 550px;
-    gap: 42px;
+    padding: 9rem 34rem;
+    gap: 2rem;
 }
 
 .quote-text, .quote-name{
-    max-width: 1000px;
-    font-size: 36px;
+    max-width: 62rem;
+    font-size: 2rem;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
@@ -108,7 +108,7 @@ body{
 }
 .quote-name{
     align-self: last baseline;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 900;
     font-style: normal;
 }
@@ -119,15 +119,15 @@ body{
 .container.action{
     justify-content:center;
     align-items:center;
-    margin:100px 300px;
+    margin:6rem 18rem;
     background-color:#3882F6;
-    padding: 60px 120px;
-    border-radius:20px;
+    padding: 4rem 8rem;
+    border-radius:1rem;
 }
 
 .action-header{
-    padding-left: 8px;
-    font-size: 32px;
+    padding-left: 1rem;
+    font-size: 2rem;
     font-weight:900;
 }
 
@@ -139,10 +139,10 @@ body{
     background-color:#1f2937;
     justify-content: center;
     align-items: center;
-    padding: 30px 1000px;
+    padding: 2rem 62rem;
 }
 .footer-text{
-    font-size: 18px;
+    font-size: 1rem;
     text-wrap: nowrap;
 }
 
@@ -155,12 +155,12 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px
+    gap: 1rem;
   }
 
 a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1rem;
     color: #E5E7EB;  /* Default color */
     transition: color 0.3s ease, transform 0.1s ease; /* Smooth transition for color and shrink effect */
 }
@@ -177,15 +177,15 @@ a:active {
 
 
 .signup button{
-    font-size: 22px;
+    font-size: 1rem;
     font-weight: 900;
     color: #E5E7EB;
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
-    width:130px;
-    height:40px;
-    margin-top: 12px;
+    width:8rem;
+    height:2rem;
+    margin-top: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }
